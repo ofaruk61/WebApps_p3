@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enstruman Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Titan+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- hero section -->
+    <!-- hero section -->
+    <section class="header">
+        <nav>
+            <!-- onClick eklenecek -->
+
+            <a href="index.html" id="logo"> EnstrumanStore</a>
+            <div class="nav-link" id="navLink">
+                <!-- menu tuşu eklenecek -->
+                <span class="material-symbols-outlined side" onclick="hideMenu()">
+                    close
+                </span>
+                <ul>
+                    <li><a href="#">ANASAYFA</a></li>
+                    <li><a href="#">HAKKIMIZDA</a></li>
+                    <li><a href="#">ENSTRUMANLAR</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">İLETİŞİM</a></li>
+                </ul>
+            </div>
+            <span class="material-symbols-outlined side" onclick="showMenu()">
+                menu
+            </span>
+        </nav>
+
+        <div class="text-box">
+            <h1>Şehrimizin en büyük enstruman store</h1>
+            <p>Aradığınız her çeşit enstrumanı şehrimizde kolaylıkla bulacaksınız; <br> artık herkes kendine özgü bir
+                enstrumana sahip olacaksınız. </p>
+            <a href="#" class="hero-btn">Ayrıntılar için tıklayın </a>
+        </div>
+    </section>
+    <!-- products section -->
+    <section class="products">
+
+        <h2>Enstruman Store'da başka neler var?</h2>
+        <p>Sadece şehrin en çok enstruman çeşidine ulaşmayacaksınız, ayrıca tüm müzik ürünlerine de sahip
+            olabileceksiniz.
+        </p>
+        <div class="row">
+            <div class="products-col">
+                <h3>Telliler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nemo quae repellendus vitae
+                    consequatur obcaecati provident aliquam reiciendis, maiores voluptatibus!</p>
+            </div>
+            <div class="products-col">
+                <h3>Vurmalılar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nemo quae repellendus vitae
+                    consequatur obcaecati provident aliquam reiciendis, maiores voluptatibus!</p>
+            </div>
+            <div class="products-col">
+                <h3>Üflemeliler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nemo quae repellendus vitae
+                    consequatur obcaecati provident aliquam reiciendis, maiores voluptatibus!</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--campus section-->
+    <section class="campus">
+        <h2>Yeni Şubeler hizmetinizde</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur fugiat dolorum voluptates, facere ipsam
+            reprehenderit?</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/s3.jpg" alt="enstruman store">
+                <div class="layer">
+                    <h3>Merkez Şube</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/s1.jpg" alt="enstruman store">
+                <div class="layer">
+                    <h3>Meydan Şube</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/s4.jpg" alt="enstruman store">
+                <div class="layer">
+                    <h3>Sahil Şube</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- servis section -->
+    <section class="services">
+        <h2>Hizmetlerimiz</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas aliquam quae sapiente sit totam labore.
+        </p>
+        <div class="row">
+            <div class="services-col">
+                <img src="images/arama2.jpg" alt="enstruman">
+                <h3>Enstruman Arama</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim ad quia.</p>
+            </div>
+            <div class="services-col">
+                <img src="images/a2.jpg" alt="kütüphane">
+                <h3>Müzik Kütüphanesi</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim ad quia.</p>
+            </div>
+            <div class="services-col">
+                <img src="images/M10.JPG" alt="cafe">
+                <h3>Kafeterya</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores enim ad quia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- comment section -->
+    <section class="comments">
+        <h2>Müşterilerimiz Ne Diyor?</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, repellendus.</p>
+        <div class="row">
+            <div class="comments-col">
+                <img src="images/e3.jpg" alt="erkek">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi necessitatibus sunt aperiam.</p>
+                    <h3>Ali Serin</h3>
+                    <span class="material-symbols-outlined"> star </span>
+                    <span class="material-symbols-outlined"> star </span>
+                    <span class="material-symbols-outlined"> star </span>
+                    <span class="material-symbols-outlined"> star </span>
+                    <span class="material-symbols-outlined"> star </span>
+                </div>
+            </div>
+            <div class="comments-col">
+                <img src="images/kadın resmi.jpg" alt="erkek">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi necessitatibus sunt aperiam.</p>
+                    <h3>Ayşe Çelik</h3>
+                    <span class="material-symbols-outlined"> star </span>
+                    <span class="material-symbols-outlined"> star </span>
+                    <span class="material-symbols-outlined"> star </span>
+                    <span class="material-symbols-outlined"> star </span>
+                    <span class="material-symbols-outlined"> star_half </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- abone section -->
+    <section class="abone">
+        <h2>Ücretsiz yayınlarımızdan faydalanmak için <br> kütüphanemize üye olun </h2>
+        <a href="#" class="hero-btn">BİZE ULAŞIN</a>
+
+
+    </section>
+
+    <footer>
+        <h4>Enstruman Store</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, voluptas?</p>
+        <div class="icons">
+
+
+            <p>Coded with <span style="color: red; font-size: 25px;">&#10084</span> <span>by Ömer Faruk<a
+                        href="mail to:srgnkizil.yandex.com"></a>
+                    <span class="material-symbols-outlined icon">
+                        mail
+                    </span> </p>
+        </div>
+
+
+
+
+
+    </footer>
+
+    <script>
+        function hideMenu() {
+            document.getElementById('navLink').style.right = '-200px';
+        }
+
+        function showMenu() {
+            document.getElementById('navLink').style.right = '0';
+        }
+
+    </script>
+</body>
+
+</html>
